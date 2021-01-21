@@ -38,4 +38,56 @@ p {
 .logo {
   height: 30px;
 }
+
+.hero-text-container {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-text-1 {
+  display: block;
+  letter-spacing: 35px;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  animation: moveInLeft 1.5s ease-in-out;
+}
+
+.hero-text-2 {
+  display: block;
+  font-weight: 200;
+  letter-spacing: 10px;
+  font-size: 20px;
+  animation: moveInRight 1s ease-in-out;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0%;
+    transform: translate(-100px);
+  }
+  80% {
+    transform: translate(20px);
+  }
+  100% {
+    opacity: 100%;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 50%;
+    transform: translate(50px);
+  }
+  100% {
+    opacity: 100%;
+    transform: translate(0);
+  }
+}
 /*# sourceMappingURL=style.css.map */
