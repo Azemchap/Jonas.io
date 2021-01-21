@@ -1,0 +1,17 @@
+.hero-text-container {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-text-1 {
+  display: block;
+  letter-spacing: 35px;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.hero-text-2 {
+  display: block;
+  font-weight: 200;
+  letter-spacing: 5px;
+}
